@@ -1,0 +1,8 @@
+# Versions used for the paper (Supplemental Methods). Install PyTorch first, see README.
+torch==2.7.1
+numpy==1.26.4
+pandas==2.3.0
+scipy==1.13.1
+scikit-learn==1.5.2
+# ECG-FM network code (official fairseq-signals, pinned commit)
+fairseq-signals @ git+https://github.com/Jwoo5/fairseq-signals.git@6ffdec72fcb3c42b162ccf98e3e0842ab75d9f7b
